@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="head">
+        <div class="concept">
+          <p class="home__title"><span class="span__home">E</span>Food</p>
+        </div>
+        <div class="title">
+          <p class="text__home">Home</p>
+          <p class="text__Service">Service</p>
+          <p class="text__top">Top cities</p>
+          <p class="Contract">Contract</p>
+          <img src="./images/Search.svg" alt="" />
+          <img class="images" src="./images/Buy.svg" alt="" />
+          <div class="header">
+            <button class="btn__Sign">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="design__cell">
+        <div class="design__text">
+          <h3 class="section__title">
+            Super Fast <span class="delivery">Food <br />Delivery</span> Service
+          </h3>
+          <p class="design__cell-text">
+            We provide super fast-delivery service. Let’s use our <br />
+            services right now and get discounts of up to 50%
+          </p>
+
+          <meta charset="UTF-8" />
+          <title>Заказ</title>
+          <button onclick="openModal()">Сделать заказ</button>
+          <div class="modal" id="orderModal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <h3>Введите количество</h3>
+              <input type="number" id="quantity" placeholder="Количество" />
+              <br />
+              <button onclick="submitOrder()">Оформить</button>
+            </div>
+          </div>
+        </div>
+        <img
+          class="pensil"
+          src="./images/Group 36208.svg"
+          alt=""
+          class="group"
+        />
+      </div>
+    </section>
+    <section class="container">
+      <article class="header__top">
+        <h3 class="title__Category">
+          Our popular <span class="Categoryy"> Category </span>
+        </h3>
+        <div class="overflow">
+          <button class="Asian__btn__food">
+            <img
+              class="images__burger"
+              src="./images/burger 1.svg"
+              alt=""
+            />Burger
+          </button>
+          <button class="Asian__btn">
+            <img class="images__pizza" src="./images/pizza 1.svg" alt="" />Pizza
+          </button>
+          <button class="Asian__btn">
+            <img
+              src="./images/sandwich 1.svg"
+              alt=""
+              class="images__sandwich"
+            />sandwich
+          </button>
+          <button class="Asian__btn">
+            <img
+              src="./images/sandwich 11.svg"
+              alt=""
+              class="images__Asian-Food"
+            />Asian Food
+          </button>
+          <button class="Asian__btn">
+            <img src="./images/dish 1.svg" alt="" class="images__Set Menu" />Set
+            Menu
+          </button>
+        </div>
+      </article>
+      <article class="class">
+        <div class="spaces">
+          <div class="head__salad">
+            <div class="overflow__beef">
+              <div class="boss">
+                <img
+                  src="./images/item_01-480x480 1.svg"
+                  alt=""
+                  class="img__burger-images"
+                />
+                <img src="./images/Star.svg" alt="" class="images-carrd" />
+              </div>
+              <p class="salad__title">Cheeseburger With Salad</p>
+              <span class="Cheeseburger">$18.00</span>
+              <button class="Add__to__Cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="head__salad">
+            <div class="overflow__beef">
+              <div class="bosss">
+                <img
+                  src="./images/Burger.svg"
+                  alt=""
+                  class="img__burger-imagess"
+                />
+                <img src="./images/Stawwr.svg" alt="" class="images-carrdd" />
+              </div>
+              <p class="salad__title">Beef Burger</p>
+              <span class="Cheeseburger">$15.00</span>
+              <button class="Add__to__Cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="head__salad">
+            <div class="overflow__beef">
+              <div class="boss">
+                <img
+                  src="./images/item_01-480x480 1666.svg"
+                  alt=""
+                  class="img__burger-images"
+                />
+                <img src="./images/Star.svg" alt="" class="images-carrd" />
+              </div>
+              <p class="salad__title">Royel Cheeseburger</p>
+              <span class="Cheeseburger">$16.00</span>
+              <button class="Add__to__Cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="head__salad">
+            <div class="overflow__beef">
+              <div class="boss">
+                <img
+                  src="./images/item_01-480x480 1000.svg"
+                  alt=""
+                  class="img__burger-images"
+                />
+                <img src="./images/Star.svg" alt="" class="images-carrd" />
+              </div>
+              <p class="salad__title">Black Gambugrer</p>
+              <span class="Cheeseburger">$14.00</span>
+              <button class="Add__to__Cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="head__salad">
+            <div class="overflow__beef">
+              <div class="boss">
+                <img
+                  src="./images/item_01-480x480 19999.svg"
+                  alt=""
+                  class="img__burger-images"
+                />
+                <img src="./images/Star.svg" alt="" class="images-carrd" />
+              </div>
+              <p class="salad__title">Chicken Burger</p>
+              <span class="Cheeseburger">$15.00</span>
+              <button class="Add__to__Cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="wrappper">
+          <img
+            src="./images/burger 14444444.svg"
+            alt=""
+            class="images__textt"
+          />
+        </div>
+      </article>
+    </section>
+    <section class="container">
+      <div class="text__Homee">
+        <div class="title__good">
+          <img src="./food delivery 4.png" alt="" class="images-fasted" />
+        </div>
+        <div class="provide">
+          <h2 class="stay__at">
+            <span class="good__text">Stay</span> At Home, We Will <br />
+            Provide
+            <span class="good__text"> Good Food</span>
+          </h2>
+          <p class="provite__and">
+            We provide tasty food and superfast delivery at <br />your home.
+            Let’s use our services right now and <br />
+            get discounts of up to 50%.
+          </p>
+          <div class="file">
+            <span class="delivery__Minutess">
+              <img class="img" src="./images/Timer aaa.svg" alt="" />
+              fasted delivery in 30 Minutes
+            </span>
+            <span class="delivery__Minutesss">
+              <img src="./images/Delivery icon.svg" alt="" />
+              300+ delivery men
+            </span>
+            <span class="delivery__Minutessss">
+              <img src="./images/Resturent icon.svg" alt="" />
+              500+ restaurant & cafe shop
+            </span>
+          </div>
+          <button class="button">See more</button>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="restaurant">
+        <h3 class="Food__restaurant">
+          Top Food <span class="restaurant__text">Restaurant</span>
+        </h3>
+      </div>
+      <div class="child">
+        <div class="blaze">
+          <img src="./images/Rectangle 53.svg" alt="" />
+          <p class="blaze__pizza_p">Blaze Pizza</p>
+          <div class="width">
+            <span class="pizza__timer">
+              <img src="./images/timer 1777.svg" alt="" /> 11.00 AM - 10.00
+              PM</span
+            >
+            <button class="btn__strel">
+              <img src="./images/Group.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="blaze">
+          <img src="./images/Rectangle 533.svg" alt="" />
+          <p class="blaze__pizza_p">Pizza Ranch</p>
+          <div class="width">
+            <span class="pizza__timer">
+              <img src="./images/timer 1777.svg" alt="" /> 09.00 AM - 10.00 PM
+            </span>
+            <button class="btn__strel">
+              <img src="./images/Group.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="blaze">
+          <img src="./images/Rectangle 533333.svg" alt="" />
+          <p class="blaze__pizza_p">Dion’s Pizza Hut</p>
+          <div class="width">
+            <span class="pizza__timer">
+              <img src="./images/timer 1777.svg" alt="" /> 10.00 AM - 12.00 PM
+            </span>
+            <button class="btn__strel">
+              <img src="./images/Group.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="child">
+        <div class="blaze">
+          <img src="./images/Rectangle 50.svg" alt="" />
+          <p class="blaze__pizza_p">Royel Burger</p>
+          <div class="width">
+            <span class="pizza__timer">
+              <img src="./images/timer 1777.svg" alt="" /> 11.00 AM - 10.00 PM
+            </span>
+            <button class="btn__strel">
+              <img src="./images/Group.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="blaze">
+          <img src="./images/Rectangle 500.svg" alt="" />
+          <p class="blaze__pizza_p">KFC Restaurant</p>
+          <div class="width">
+            <span class="pizza__timer">
+              <img src="./images/timer 1777.svg" alt="" /> 09.00 AM - 10.00 PM
+            </span>
+            <button class="btn__strel">
+              <img src="./images/Group.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="blaze">
+          <img src="./images/Rectangle 5000.png" alt="" />
+          <p class="blaze__pizza_p">Blaze Pizza</p>
+          <div class="width">
+            <span class="pizza__timer">
+              <img src="./images/timer 1777.svg" alt="" /> 10.00 AM - 12.00 PM
+            </span>
+            <button class="btn__strel">
+              <img src="./images/Group.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="wrapp">
+        <div class="mobile">
+          <h3 class="dovload">
+            Download Our <span class="app">Mobile App</span>
+          </h3>
+          <p class="fingertips">
+            It's all at your fingertips -- the restaurants you love. Find <br />
+            the right food to suit your mood, and make the first bite <br />
+            last. Go ahead, download app and get 50% discount
+          </p>
+          <div class="boss__images">
+            <img
+              class="app store"
+              src="./images/Store=App Store, Style=Black.svg"
+              alt=""
+            />
+            <img
+              class="app store"
+              src="./images/Store=Google Play, Style=Black.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="beef__burger">
+          <img src="./images/Group 178.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="Saying">
+      <div class="What">
+        <h2 class="client">
+          What Our Client Are <span class="Saying__span">Saying </span>
+        </h2>
+        <div class="letss">
+          <img class="burger__title" src="./images/Rectangle 8.png" alt="" />
+          <p class="system">
+            EFood has the most intriguing food order system in the <br />
+            country. UI in both their app and web Is very simple and <br />
+            easy to use, enhancing the UX. Their delivery men are also <br />
+            quite professional and knows the neighborhood well. Till <br />
+            now I never had to guide them to my address for delivery;
+            <span class="Jole">Anglina Jole</span><br />
+            <span class="lover">Food lover</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="title__offer">
+        <p class="latest">Subscribe to get the Latest Offer</p>
+        <p class="newspaper">
+          Get our daily updates by subscribing to our newspaper, please drop
+          your email below
+        </p>
+        <div class="subscribe-container">
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="email-input"
+          />
+          <button class="subscribe-btn">Subscribe</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__brand">
+          <h2><span class="highlight">E</span>Food</h2>
+          <p><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+          <p><i class="fas fa-phone"></i> 0943833399</p>
+          <p><i class="fas fa-envelope"></i> support@efood.com</p>
+          <img src="./images/sosmed.svg" alt="" class="neet" />
+        </div>
+        <div class="footer__column">
+          <h3>Service</h3>
+          <ul>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Home delivery</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Our trusted partner</a></li>
+            <li><a href="#">New users FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3>Supports</h3>
+          <ul>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Terms conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#">Download app</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">What's new</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2021 EFood – All rights reserved.</p>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy</a>
+          <a href="#">Security</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function openModal() {
+        document.getElementById("orderModal").style.display = "flex";
+      }
+
+      function closeModal() {
+        document.getElementById("orderModal").style.display = "none";
+      }
+
+      function submitOrder() {
+        let quantity = document.getElementById("quantity").value;
+        if (quantity && !isNaN(quantity) && quantity > 0) {
+          alert("Заказ оформлен! Количество: " + quantity);
+          closeModal();
+        } else {
+          alert("Введите корректное количество!");
+        }
+      }
+    </script>
+  </body>
+</html>
